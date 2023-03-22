@@ -1,0 +1,14 @@
+type Query {
+    customersByName(name:String) : [Customer]
+}
+
+type Customer {
+    id: ID
+    name: String
+    suggestedActivity : Activity
+}
+
+type Activity  {
+    activity           : String
+    participants       : Int
+}
