@@ -47,8 +47,3 @@ services:
     restart: always
     ports:
       - 9411:9411
-
-  mongodb:
-    image: mongo:latest
-    ports:
-      - 27017:27017
